@@ -1,8 +1,12 @@
 # file_sort
 Usage: java -jar file_sort.jar in.txt [-o out.txt] [-i|-s] [-a|-d]  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  in.txt       - input file  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  -o out.txt   - output file (default out.txt)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  -i           - sort integers  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  -s           - sort strings (default)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  -a           - sort in ascending order (default)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  -d           - sort in descending order  
+ in.txt       - input file  
+ -o out.txt   - output file (default out.txt)  
+ -i           - sort integers  
+ -s           - sort strings (default)  
+ -a           - sort in ascending order (default)  
+ -d           - sort in descending order  
+
+Wrong flags are ignored.  
+-i and -s flags can't be used together.  
+-a and -d flags can't be used together.  
